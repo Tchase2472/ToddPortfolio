@@ -1,0 +1,80 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+
+body {
+    background-color: tan;
+}
+
+
+.select {
+    color: white;
+    background-color: rgb(212, 31, 14);
+    font-family: "Comfortaa";
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-size: 9px;
+    border: 5px solid black;
+    margin: 20px;
+    margin-top: 700px;
+    margin-right: 20px;
+    margin-left: 100px;
+
+
+}
+
+.viewport {
+    height: 500px;
+    width: 600px;
+    border: 10px inset red;
+    margin-top: 150px;
+    margin-left: 500px;
+    background-color: rgba(89, 229, 241, 0.75);
+    border-radius: 30px;
+
+}
+
+.buttonbox {
+    border: 2px solid black;
+    height: 100%;
+}
+
+.title {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-family: "Comfortaa";
+    font-size: 30px;
+}
+
+#words {
+    height: 200px;
+    width: 480px;
+    margin: 0 auto;
+    margin-top: 120px;
+    text-align: center;
+    animation-name: fade;
+    animation-duration: 10s;
+    font-family: "Comfortaa";
+    font-size: 50px;
+}
+
+.reset {
+    height: 20px;
+    width: 90px;
+    border: 2px solid black;
+    margin-top: 200px;
+    margin-left: 500px;
+    color: white;
+    background-color: red;
+}
